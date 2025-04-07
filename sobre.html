@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja Naruto</title>
+    <!-- CSS BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CSS BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- CSS PROJETO -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="cabecalho__caixa__logo"></div>
+      <div class="cabecalho__caixa">
+        <div class="cabecalho__hover">
+          <a href="index.html" class="cabecalho__link cabecalho__link__home"
+            >HOME</a
+          >
+        </div>
+        <div class="cabecalho__hover">
+          <a href="sobre.html" class="cabecalho__link">SOBRE</a>
+        </div>
+      </div>
+      <div class="cabecalho__icone">
+        <i class="bi bi-cart-plus-fill cabecalho__carrinho"></i>
+      </div>
+      <form class="cabecalho__formulario">
+        <div class="mb-3">
+          <label for="login" class="form-label cabecalho__label">LOGIN</label>
+          <input
+            type="text"
+            class="form-control cabecalho__input"
+            placeholder="Digite um login"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+            id="login"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="senha" class="form-label cabecalho__label">SENHA</label>
+          <input
+            type="password"
+            class="form-control cabecalho__input"
+            placeholder="Digite uma senha"
+            id="senha"
+          />
+        </div>
+        <div class="layout_mobile">
+          <img src="img/bandana.png" alt="botao" class="cabecalho__botao" />
+          <i class="bi bi-cart-plus-fill cabecalho__carrinho carrinho_mobile"></i>
+        </div>
+      </form>
+    </header>
+    <main class="sobre">
+      <div class="sobre_div">
+        <img src="img/hokage.png" alt="naruto test" class="sobre_img" />
+        <p class="sobre_texto">
+          Bem-vindo à PODER BIJU – a loja onde cada chaveiro carrega o chakra de
+          um verdadeiro ninja! Se você é fã de Naruto e quer levar o espírito
+          shinobi para todos os lugares, aqui é o seu esconderijo secreto! Temos
+          chaveiros incríveis com os símbolos das Vilas Ocultas, os clãs
+          lendários, os Akatsuki, os Jinchuurikis e muito mais! Na PODER BIJU,
+          você encontra aquele chaveiro perfeito para mostrar sua lealdade ao
+          seu personagem favorito. Seja do lado dos Hokages ou dos renegados da
+          Akatsuki, seu chaveiro vai carregar sua essência ninja! Pegue o seu
+          antes que o Orochimaru tente roubar! Dattebayo!
+        </p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__texto">
+        &copy; <a href="index.html" class="footer__link">Poder Biju</a>
+      </p>
+    </footer>
+  </body>
+</html>

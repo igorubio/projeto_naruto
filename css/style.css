@@ -1,0 +1,349 @@
+/* FONTE */
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rampart+One&display=swap");
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  height: 100vh;
+}
+
+/* CABECALHO */
+.cabecalho__caixa__logo {
+  width: 140px;
+  height: 140px;
+  background-image: url(../img/naruto.png);
+  background-size: cover;
+}
+
+.cabecalho__caixa__logo:hover {
+  background-image: url(../img/naruto_biju.png);
+  background-size: cover;
+}
+.cabecalho {
+  display: flex;
+  background-color: rgba(253, 150, 86, 0.877);
+  border-bottom: 2px solid black;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cabecalho__formulario {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+div.mb-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.cabecalho__botao {
+  align-self: center;
+  width: 100px;
+  cursor: pointer;
+}
+
+.cabecalho__botao:hover {
+  box-shadow: 5px 5px 50px whitesmoke;
+}
+
+.cabecalho__link {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.cabecalho__hover {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+}
+.cabecalho__hover:hover {
+  background-image: url(../img/marca.png);
+  width: 110px;
+  height: 110px;
+  background-size: cover;
+  border-radius: 25%;
+}
+
+.cabecalho__hover:hover .cabecalho__link {
+  font-weight: bold;
+  color: white;
+}
+
+.cabecalho__caixa {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cabecalho__icone {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cabecalho__carrinho {
+  font-size: 40px;
+}
+
+.cabecalho__icone:hover {
+  border-radius: 50%;
+  background-color: white;
+}
+
+.cabecalho__label {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.cabecalho__input {
+  background-color: #222a59;
+  border: 2px solid black;
+}
+
+.cabecalho__input::placeholder {
+  color: whitesmoke;
+}
+
+input.cabecalho__input:focus {
+  background-color: #736758;
+  border: none;
+  border: 3px solid black;
+  outline: none;
+}
+
+.carrinho_mobile {
+  display: none;
+}
+
+/* PRODUTOS */
+.main {
+  background-image: url(../img/background.jpg);
+  padding-bottom: 35px; 
+}
+
+.vitrine {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  padding-top: 55px;
+}
+
+.produtos {
+  margin: 50px;
+  width: 23%;
+  border: 2px solid black;
+  background-color: #f27649;
+}
+
+.produtos__card {
+  align-items: center;
+  background-color: #f2c84b;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px grey;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 16px;
+}
+
+.produtos__card__titulo {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.produtos__card__imagem {
+  margin-bottom: 16px;
+  width: 180px;
+  height: 220px;
+}
+
+.produtos__card__botao__preco {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 18px;
+}
+
+.produtos__card__preco {
+  font-size: 28px;
+}
+
+.produtos__card__botao {
+  background-color: #222a59;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  color: whitesmoke;
+  font-size: 22px;
+  padding: 5px 16px;
+  margin-bottom: 1rem;
+}
+
+.produtos__card__botao .bi-cart4 {
+  margin-right: 1rem;
+}
+
+.produtos__card__botao:hover {
+  background-color: rgb(250, 250, 58);
+  color: var(--cor-clara);
+}
+
+/* SOBRE */
+.sobre {
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/background.jpg);
+  padding: 50px;
+}
+.sobre_div {
+  align-items: center;
+  box-shadow: 2px 2px 2px black;
+  padding: 10px 30px;
+  height: 80%;
+  display: flex;
+  align-self: center;
+  align-content: center;
+  gap: 30px;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(253, 150, 86, 0.877);
+  background-color: #222a59;
+}
+.sobre_img {
+  width: 60%px;
+  border-width: 2.5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.sobre_texto {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 26px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px gray;
+}
+
+/* FOOTER */
+.footer {
+  border-top: 2px solid black;
+  background-color: rgba(253, 150, 86, 0.877);
+  padding: 20px;
+}
+
+.footer__texto {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+
+.footer__link {
+  color: black;
+  text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1320px) {
+  .produtos__card__botao__preco {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cabecalho {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cabecalho__icone {
+    display: none;
+  }
+
+  .cabecalho__formulario {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .layout_mobile {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .carrinho_mobile {
+    display: inline-block;
+    font-size: 50px;
+  }
+
+  .cabecalho__botao {
+    width: 120px;
+  }
+
+  .produtos__card {
+    width: 40%;
+  }
+
+  .sobre_div {
+    flex-direction: column;
+  }
+
+  .sobre_texto {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .produtos__card {
+    width: 85%;
+  }
+
+  .sobre {
+    padding: 0;
+  }
+
+  .sobre_div {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  .cabecalho {
+    padding: 0;
+  }
+
+  .sobre_div {
+    padding: 10px 5px;
+  }
+
+  .sobre_texto {
+    font-size: 18px;
+  }
+
+  .footer__texto {
+    font-size: 28px;
+  }
+
+}
